@@ -1,23 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color:white; 
+    text-decoration: none;
+}
 body{
     font-family: Arial;
-    margin:0;
 }
 header{
     width:100%;
     background-color:black;
-    height:32px;
+    height:66px;
     display:flex;
     justify-content: space-between;
+    position:fixed;
 }
-
 .logo{
-    width:22px;
+    position:absolute;
+    width:60px;
+    right:0px;
+
+}
+nav ul{
+    top: 66px;
+    height:100%;
+    position:fixed;
+    background-color: black;
+    width:85%;
+    list-style:none;
+    text-align: right;
+}
+nav ul li a{
+    display: block;
+    padding: 1em 2em;
+    background-color: grey;
 }
 .menu{
-    width:22px;
+    width:66px;
 }
 .section-1{
-    background-image: url(../images/wordle800\ \(background\ erased\).png)
+    background-image: url(../images/wordle800\ \(background\ erased\).png);
 }
 .background{
     text-align:center;
@@ -55,17 +80,17 @@ footer{
     background-color:black;
 }
 #gh-logo{
-    width: 22px;
+    width: 66px;
 }
 #ig-logo{
-    width: 22px;
+    width: 66px;
 }
 #li-logo{
-    width:22px;
+    width:66px;
 }
 #yt-logo{
     width:66px;
 }
 #bottom-logo{
-    width:22px;
+    width:66px;
 }
